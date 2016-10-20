@@ -18,7 +18,7 @@ h1 {
 }
 
 .mdl-button {
-	background: blue;
+	background: white;
 }
 
 .dark_block {
@@ -35,35 +35,10 @@ h1 {
 	z-index: 1;
 }
 
-#img_logo {
-	width: 30px;
-	height: 30px;
-	opacity: 1.0;
-}
-
-.img_logo1 {
-	width: 30px;
-	height: 30px;
-	margin-left: 80px;
-	float: left;
-	opacity: 1.0;
-	position: absolute;
-	left: 50%;
-}
-
-.img_logo1:hover {
-	-moz-transform: rotate(360deg);
-	-o-transform: rotate(360deg);
-	-webkit-transform: rotate(360deg);
-	transition: 0.7s;
-}
-
 .img_logo1:not(:hover) {
 	transition: 0.7s;
 }
-div{
-	border: 2px solid black;
-}
+
 button_1{
 	border-bottom: 2px solid white;
 	
