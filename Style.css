@@ -39,11 +39,12 @@ font-size: 50px;*/
 
 .menu {
     border: 0;
-    background: none;
-    box-shadow: 0 0;
+    background: url(images/small-back.png);
+    box-shadow: 0 0 20px black;
     font-size: 25px;
     padding-top: 15px;
     z-index: 1;
+    padding-bottom: 10px;
 }
 
 .navbar-nav > li.active-link > a {
@@ -67,6 +68,8 @@ font-size: 50px;*/
 
 .footer_style {
     background: transparent;
+    box-shadow: none;
+    border: none;
 }
 .footer_style_1 {
     margin-top: 300px;
@@ -91,10 +94,12 @@ font-size: 50px;*/
     max-width: 70%;
     font-family: 'Roboto', sans-serif;
     color: darkturquoise;
-    border: 2px solid red;
+    border-top: 2px solid red;
+    border-bottom: 2px solid red;
     margin-left: 15%;
     margin-top: 20%;
     text-align: center;
+    border: 0 3 3 0;
 }
 .nav_bottom{
     margin-top: 30px;
@@ -103,10 +108,12 @@ margin-bottom: 30px;
 .social_ic{
     padding-top: 60px;
 }
-h1{
+p{
     text-align: center;
-    font-size: 15px;
-    padding-top: 90px;
+    font-size: 21px;
+    padding-top: 30px;
+    font-style:italic;
+    max-width: 100%;
 }
 
 @media only screen and (max-width: 400px) {
@@ -119,6 +126,12 @@ h1{
     .welcome_text {
     font-size: 25px;
     }
+    p{
+    text-align: center;
+    font-size: 11px;
+    padding-top: 40px;
+    font-style:italic;
+}
 }
 @media only screen and (max-width: 736px) {
    .menu {
