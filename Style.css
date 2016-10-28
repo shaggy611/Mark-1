@@ -1,8 +1,5 @@
 body {
     background: url(images/fon_1.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
     height: 100%;
     overflow-y: scroll;
@@ -45,7 +42,7 @@ font-size: 50px;*/
     padding-top: 10px;
     z-index: 1;
     padding-bottom: 10px;
-    border-radius: 0 0 7px 7px ;
+    border-radius: 0 0 7px 7px;
 }
 
 .navbar-nav > li.active-link > a {
@@ -55,6 +52,7 @@ font-size: 50px;*/
 
 .navbar-default .navbar-nav > li > a {
     color: darkturquoise;
+
 }
 
 .navbar-default .navbar-nav > li > a:hover {
@@ -72,6 +70,7 @@ font-size: 50px;*/
     box-shadow: none;
     border: none;
 }
+
 .footer_style_1 {
     margin-top: 300px;
     background: transparent;
@@ -102,18 +101,31 @@ font-size: 50px;*/
     text-align: center;
     border: 0 3 3 0;
 }
-.nav_bottom{
+
+.nav_bottom {
     margin-top: 30px;
-margin-bottom: 30px;
+    margin-bottom: 30px;
 }
-.social_ic{
-    padding-top: 60px;
+
+.social_ic {
+    padding-top: 20px;
+    align-content: right;
+    /*width:309px;*/
+    margin-right: 1px;
 }
-p{
+.social_ic_1 {
+
+}
+.social_ic > li {
+    padding-left: 2px;
+
+}
+
+p {
     text-align: center;
     font-size: 21px;
     padding-top: 30px;
-    font-style:italic;
+    font-style: italic;
     max-width: 100%;
 }
 
@@ -125,17 +137,17 @@ p{
         background: black;
     }
     .welcome_text {
-    font-size: 25px;
+        font-size: 25px;
     }
-    p{
-    text-align: center;
-    font-size: 11px;
-    padding-top: 40px;
-    font-style:italic;
+    p {
+        font-size: 11px;
+        padding-top: 40px;
+        font-style: italic;
+    }
 }
-}
+
 @media only screen and (max-width: 736px) {
-   .menu {
+    .menu {
         background: black;
     }
 }
