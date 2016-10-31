@@ -52,7 +52,6 @@ font-size: 50px;*/
 
 .navbar-default .navbar-nav > li > a {
     color: darkturquoise;
-
 }
 
 .navbar-default .navbar-nav > li > a:hover {
@@ -94,8 +93,8 @@ font-size: 50px;*/
     max-width: 70%;
     font-family: 'Roboto', sans-serif;
     color: darkturquoise;
-    border-top: 2px solid red;
-    border-bottom: 2px solid red;
+    border-top: 3px solid red;
+    border-bottom: 3px solid red;
     margin-left: 15%;
     margin-top: 20%;
     text-align: center;
@@ -109,16 +108,13 @@ font-size: 50px;*/
 
 .social_ic {
     padding-top: 20px;
-    align-content: right;
-    /*width:309px;*/
-    margin-right: 1px;
+    margin-left: 52%;
 }
 .social_ic_1 {
 
 }
 .social_ic > li {
     padding-left: 2px;
-
 }
 
 p {
@@ -127,6 +123,22 @@ p {
     padding-top: 30px;
     font-style: italic;
     max-width: 100%;
+}
+.subscribe_form {
+    margin-top: 10px;
+}
+.controls{
+    margin-top: 10px;
+}
+.subscribe_form_1{
+    background-color: transparent;
+    border: 3px solid red;
+    width: 350px;
+    font-size: 20px;
+}
+.col-md-4{
+    border: 1px solid green;
+    height: 200px;
 }
 
 @media only screen and (max-width: 400px) {
@@ -144,10 +156,21 @@ p {
         padding-top: 40px;
         font-style: italic;
     }
+.social_ic {
+    padding-top: 20px;
+    margin-left: none;
+}
 }
 
-@media only screen and (max-width: 736px) {
+@media only screen and (min-width: 767px) {
     .menu {
         background: black;
     }
+.social_ic {
+    padding-top: 20px;
+    padding-left: 1px;
 }
+}
+@media only screen and (max-width: 400px) {
+
+    }
