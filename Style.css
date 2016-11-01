@@ -29,6 +29,21 @@ font-size: 50px;*/
     font-size: 40px;
     color: darkturquoise;
 }
+.logo_img{
+    width: 6%;
+    margin-right: 3px;
+    transform: rotate(10deg);
+    margin-top: 5px;
+
+}
+
+.logo_img:hover{
+    width: 6%;
+    margin-right: 3px;
+    transform: rotate(180deg);
+    margin-top: 5px;
+
+}
 
 .container-fluid {
     z-index: 1;
@@ -101,14 +116,10 @@ font-size: 50px;*/
     border: 0 3 3 0;
 }
 
-.nav_bottom {
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-
 .social_ic {
     padding-top: 20px;
-    margin-left: 52%;
+    margin-left: auto;
+    float: right;
 }
 .social_ic_1 {
 
@@ -129,6 +140,7 @@ p {
 }
 .controls{
     margin-top: 10px;
+
 }
 .subscribe_form_1{
     background-color: transparent;
@@ -156,21 +168,23 @@ p {
         padding-top: 40px;
         font-style: italic;
     }
-.social_ic {
-    padding-top: 20px;
-    margin-left: none;
-}
+
 }
 
-@media only screen and (min-width: 767px) {
+@media only screen and (max-width: 767px) {
     .menu {
         background: black;
     }
-.social_ic {
-    padding-top: 20px;
-    padding-left: 1px;
-}
-}
-@media only screen and (max-width: 400px) {
 
-    }
+
+}
+@media only screen and (max-width: 992px) {
+    .social_ic {
+    padding-top: 20px;
+    margin-left: auto;
+    float: left;
+}
+}
+
+
+
