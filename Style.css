@@ -63,7 +63,7 @@ font-size: 50px;*/
 
 .navbar-nav > li.active-link > a {
     color: darkturquoise;
-    border-bottom: 2px solid red;
+    border-bottom: 3px solid transparent;
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -72,8 +72,9 @@ font-size: 50px;*/
 
 .navbar-default .navbar-nav > li > a:hover {
     text-shadow: 3px 3px 15px darkturquoise;
-    border-bottom: 2px solid red;
+    border-bottom: 3px solid red;
     color: darkturquoise;
+
 }
 
 .logo {
@@ -124,7 +125,7 @@ font-size: 50px;*/
 }
 .social_ic > li:hover{
     transition: all 0.2s ease-out 0s;
-    transform: scale(0.93);
+    transform: scale(0.53);
 }
 .social_ic_1 {
 
@@ -136,7 +137,7 @@ font-size: 50px;*/
 
 p {
     text-align: center;
-    font-size: 21px;
+    font-size: 17px;
     padding-top: 30px;
     font-style: italic;
     max-width: 100%;
@@ -172,6 +173,16 @@ p {
     opacity: 1.0;
     transition: all 0.3s ease-out 0s;
     color:whitesmoke;
+}
+.nav-stacked > li > a{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+    color:azure
+}
+.nav-stacked > li > a:hover{
+    background-color: black;
+    opacity: 0.5;
 }
 
 @media only screen and (max-width: 400px) {
@@ -218,6 +229,12 @@ p {
     width: 70%;
     margin: auto;
 }
+    .nav-stacked{
+        border: 0 1 1 0;
+        margin: 7px 0px 7px 0px;
+         border-top: 1px solid aqua;
+    border-bottom: 1px solid aqua;
+    }
 }
 
 
