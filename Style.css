@@ -29,21 +29,20 @@ font-size: 50px;*/
     font-size: 40px;
     color: darkturquoise;
 }
-.logo_img{
+
+.logo_img {
     width: 6%;
     margin-right: 3px;
-
     margin-top: 5px;
     transition: all 0.5s ease-in-out 0s;
 }
 
-.logo_img:hover{
+.logo_img:hover {
     width: 6%;
     margin-right: 3px;
     transform: rotateY(360deg);
     margin-top: 5px;
     transition: all 0.6s ease-in-out 0s;
-
 }
 
 .container-fluid {
@@ -74,7 +73,6 @@ font-size: 50px;*/
     text-shadow: 3px 3px 15px darkturquoise;
     border-bottom: 3px solid red;
     color: darkturquoise;
-
 }
 
 .logo {
@@ -93,6 +91,7 @@ font-size: 50px;*/
     padding-bottom: 20px;
     border: none;
     border-top: 2px solid aqua;
+    border-bottom: 2px solid aqua;
     box-shadow: none;
     width: 90%;
     margin-left: 5%;
@@ -117,22 +116,36 @@ font-size: 50px;*/
     text-align: center;
     border: 0 3 3 0;
 }
+.car_set{
+    height: 20%;
+}
 
-.social_ic {
+
+/*.social_ic {
     padding-top: 10px;
     margin-left: auto;
     float: right;
-}
-.social_ic > li:hover{
-    transition: all 0.2s ease-out 0s;
-    transform: scale(0.53);
-}
-.social_ic_1 {
+}*/
 
+.social_ic > li:hover {
+    transition: all 0.2s ease-out 0s;
+    transform: scale(0.83);
 }
+
+.second_menu {
+    border: 1px solid red;
+    margin-top: 10px;
+    box-shadow: 0 0 30px black;
+}
+
 .social_ic > li {
     padding-left: 2px;
     transition: all 0.3s ease-in 0s;
+}
+
+.social_ic_1 {
+    margin-top: 10px;
+    text-align: right;
 }
 
 p {
@@ -142,14 +155,17 @@ p {
     font-style: italic;
     max-width: 100%;
 }
+
 .subscribe_form {
     margin-top: 10px;
 }
-.controls{
-    margin-top: 10px;
 
+.controls {
+    margin-top: 10px;
 }
-.subscribe_form_1, .btn {
+
+.subscribe_form_1,
+.btn {
     background-color: transparent;
     border: 3px solid red;
     /*width: 350px;*/
@@ -159,28 +175,33 @@ p {
     color: azure;
     padding-left: 6px;
 }
+
 .subscribe_form_1:focus {
-   box-shadow: 0 0 10px red;
+    box-shadow: 0 0 10px red;
 }
-.btn{
+
+.btn {
     background: red;
     opacity: 0.5;
     border: 3px solid red;
     transition: all 0.3s ease-in 0s;
 }
-.btn:hover{
+
+.btn:hover {
     background: red;
     opacity: 1.0;
     transition: all 0.3s ease-out 0s;
-    color:whitesmoke;
+    color: whitesmoke;
 }
-.nav-stacked > li > a{
+
+.nav-stacked > li > a {
     text-align: center;
     margin-top: 10px;
     font-size: 20px;
-    color:azure
+    color: azure
 }
-.nav-stacked > li > a:hover{
+
+.nav-stacked > li > a:hover {
     background-color: black;
     opacity: 0.5;
 }
@@ -200,42 +221,42 @@ p {
         padding-top: 40px;
         font-style: italic;
     }
-    .subscribe_form_1{
-    background-color: transparent;
-    border: 3px solid red;
-    width: 270px;
-    font-size: 20px;
-}
-        .social_ic {
-    padding-top: 20px;
-    margin:0 auto;
-    float: left;
-}
-
+    .subscribe_form_1 {
+        background-color: transparent;
+        border: 3px solid red;
+        width: 270px;
+        font-size: 20px;
+    }
+    .social_ic {
+        padding-top: 20px;
+        margin: 0 auto;
+        float: left;
+    }
 }
 
 @media only screen and (max-width: 767px) {
     .menu {
         background: black;
     }
-
-
 }
+
 @media only screen and (max-width: 992px) {
     .social_ic {
-    padding-top: 3%;
-}
+        padding-top: 3%;
+        float: none;
+    }
     .social_ic > li > a > img {
-    width: 70%;
-    margin: auto;
-}
-    .nav-stacked{
+        width: 70%;
+        margin: auto;
+    }
+    .nav-stacked {
         border: 0 1 1 0;
         margin: 7px 0px 7px 0px;
-         border-top: 1px solid aqua;
-    border-bottom: 1px solid aqua;
+        border-top: 1px solid aqua;
+        border-bottom: 1px solid aqua;
+    }
+    .social_ic_1 {
+
+        text-align: center;
     }
 }
-
-
-
