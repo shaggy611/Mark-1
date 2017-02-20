@@ -119,7 +119,9 @@ font-size: 50px;*/
 .car_set{
     height: 20%;
 }
-
+#new{
+    border-color: aqua;
+}
 
 /*.social_ic {
     padding-top: 10px;
