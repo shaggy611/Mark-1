@@ -12,6 +12,7 @@
 	<!-- Latest compiled and minified JavaScript -->
 	<link href="Style.css" rel="stylesheet" type="text/css">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<link href="css/animate.css" rel="stylesheet" type="text/css">
 	<!--<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 	<link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.indigo-pink.min.css">
 	<script defer src="https://code.getmdl.io/1.2.1/material.min.js"></script>-->
@@ -47,7 +48,7 @@
 		</nav>
 	</header>
 	<div class="container-fluid">
-		<div onmousemove="welcomeFunction(this)" onmouseout="outFunction(this)" class="welcome_text"> Music inspires is a place where you can discover something new and renew your musical tastes. Enjoy!
+		<div class="welcome_text wow slideInUp" onmousemove="welcomeFunction(this)" onmouseout="outFunction(this)"> Music inspires is a place where you can discover something new and renew your musical tastes. Enjoy!
 		</div>
 	</div>
 	<div id="new"> </div>
@@ -110,6 +111,10 @@
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/own.js"> </script>
+	<script src="js/wow.min.js"> </script>
+	<script>
+ new WOW().init();
+</script>
 </body>
 
 </html>
