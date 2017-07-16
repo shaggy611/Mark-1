@@ -98,7 +98,8 @@ font-size: 50px;*/
 
 .menu {
     border: 0;
-    background: url(images/small-back.png);
+    /*background: url(images/small-back.png);*/
+	background: rgba(0,0,0,0.8);
     box-shadow: 0 0 70px black;
     font-size: 25px;
     padding-top: 10px;
@@ -288,7 +289,7 @@ p {
 
 @media only screen and (max-width: 767px) {
     .menu {
-        background: black;
+        background: rgba(0,0,0,0.8);
     }
 }
 

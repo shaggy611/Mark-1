@@ -20,6 +20,17 @@
     position: absolute;
     transform: translate(-50%, -50%);
     animation: 1s anim_load infinite linear; }
+  .preloader .loader_2 {
+    width: 58px;
+    height: 58px;
+    border: 10px solid white;
+    border-radius: 50%;
+    border-top-color: red;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    animation: 1s anim_load_2 infinite linear; }
   .preloader.done {
     opacity: 0;
     visibility: hidden; }
@@ -29,5 +40,10 @@
     transform: translate(-50%, -50%) rotate(0deg); }
   to {
     transform: translate(-50%, -50%) rotate(360deg); } }
+@keyframes anim_load_2 {
+  from {
+    transform: translate(-50%, -50%) rotate(360deg); }
+  to {
+    transform: translate(-50%, -50%) rotate(0deg); } }
 
 /*# sourceMappingURL=preloader.css.map */
