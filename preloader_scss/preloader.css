@@ -6,6 +6,7 @@
   height: 100%;
   background: black;
   z-index: 3;
+  -webkit-transition: 1s all;
   transition: 1s all;
   opacity: 1;
   visibility: visible; }
@@ -18,8 +19,10 @@
     left: 50%;
     top: 50%;
     position: absolute;
-    transform: translate(-50%, -50%);
-    animation: 1s anim_load infinite linear; }
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    -webkit-animation: 1s anim_load infinite linear;
+            animation: 1s anim_load infinite linear; }
   .preloader .loader_2 {
     width: 58px;
     height: 58px;
@@ -29,21 +32,42 @@
     left: 50%;
     top: 50%;
     position: absolute;
-    transform: translate(-50%, -50%);
-    animation: 1s anim_load_2 infinite linear; }
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    -webkit-animation: 1s anim_load_2 infinite linear;
+            animation: 1s anim_load_2 infinite linear; }
   .preloader.done {
     opacity: 0;
     visibility: hidden; }
 
+@-webkit-keyframes anim_load {
+  from {
+    -webkit-transform: translate(-50%, -50%) rotate(0deg);
+            transform: translate(-50%, -50%) rotate(0deg); }
+  to {
+    -webkit-transform: translate(-50%, -50%) rotate(360deg);
+            transform: translate(-50%, -50%) rotate(360deg); } }
+
 @keyframes anim_load {
   from {
-    transform: translate(-50%, -50%) rotate(0deg); }
+    -webkit-transform: translate(-50%, -50%) rotate(0deg);
+            transform: translate(-50%, -50%) rotate(0deg); }
   to {
-    transform: translate(-50%, -50%) rotate(360deg); } }
+    -webkit-transform: translate(-50%, -50%) rotate(360deg);
+            transform: translate(-50%, -50%) rotate(360deg); } }
+@-webkit-keyframes anim_load_2 {
+  from {
+    -webkit-transform: translate(-50%, -50%) rotate(360deg);
+            transform: translate(-50%, -50%) rotate(360deg); }
+  to {
+    -webkit-transform: translate(-50%, -50%) rotate(0deg);
+            transform: translate(-50%, -50%) rotate(0deg); } }
 @keyframes anim_load_2 {
   from {
-    transform: translate(-50%, -50%) rotate(360deg); }
+    -webkit-transform: translate(-50%, -50%) rotate(360deg);
+            transform: translate(-50%, -50%) rotate(360deg); }
   to {
-    transform: translate(-50%, -50%) rotate(0deg); } }
+    -webkit-transform: translate(-50%, -50%) rotate(0deg);
+            transform: translate(-50%, -50%) rotate(0deg); } }
 
 /*# sourceMappingURL=preloader.css.map */
